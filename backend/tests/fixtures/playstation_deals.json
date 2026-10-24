@@ -1,0 +1,241 @@
+{
+  "props": {
+    "pageProps": {
+      "categoryId": "3f772501-f6f8-49b7-abac-874a88ca4897",
+      "pageNumber": 1
+    },
+    "apolloState": {
+      "ROOT_QUERY": {
+        "__typename": "Query",
+        "categoryGridRetrieve({\"id\":\"3f772501-f6f8-49b7-abac-874a88ca4897\",\"pageArgs\":{\"offset\":0,\"size\":24}})": {
+          "__ref": "CategoryGrid:3f772501-f6f8-49b7-abac-874a88ca4897:de-de:0:24"
+        }
+      },
+      "CategoryGrid:3f772501-f6f8-49b7-abac-874a88ca4897:de-de:0:24": {
+        "__typename": "CategoryGrid",
+        "id": "3f772501-f6f8-49b7-abac-874a88ca4897",
+        "pageInfo": {
+          "__typename": "PageInfo",
+          "isLast": true,
+          "offset": 0,
+          "size": 24,
+          "totalCount": 9
+        },
+        "products": [
+          {"__ref": "Product:EP4062-PPSA02105_00-MOVINGOUT2000000:de-de"},
+          {"__ref": "Product:EP0700-PPSA01542_00-LITTLENIGHTMARE2:de-de"},
+          {"__ref": "Product:EP0700-PPSA01542_00-LITTLENIGHTMARE2:de-de"},
+          {"__ref": "Product:EP0001-CUSA12345_00-PS4ONLYGAME00000:de-de"},
+          {"__ref": "Product:EP0002-PPSA05555_00-EXPANSIONPACK000:de-de"},
+          {"__ref": "Product:EP0003-PPSA06666_00-FREETOPLAYGAME00:de-de"},
+          {"__ref": "Product:EP0004-PPSA07777_00-HALFPRICEGAME000:de-de"},
+          {"__ref": "Product:EP0005-PPSA08888_00-PLUSONLYGAME0000:de-de"},
+          {"__ref": "Product:EP0006-PPSA09999_00-BASEPRICEZERO000:de-de"},
+          {"__ref": "Product:EP0007-PPSA04444_00-UNSAFEIMAGE00000:de-de"}
+        ]
+      },
+      "Product:EP4062-PPSA02105_00-MOVINGOUT2000000:de-de": {
+        "__typename": "Product",
+        "id": "EP4062-PPSA02105_00-MOVINGOUT2000000",
+        "name": "Moving Out 2",
+        "platforms": ["PS4", "PS5"],
+        "storeDisplayClassification": "FULL_GAME",
+        "localizedStoreDisplayClassification": "Vollversion",
+        "price": {
+          "__typename": "SkuPrice",
+          "basePrice": "29,99 €",
+          "basePriceValue": 2999,
+          "discountedPrice": "Kostenlos",
+          "discountedValue": 0,
+          "discountText": "-100 %",
+          "currencyCode": "EUR",
+          "isFree": false,
+          "isExclusive": false,
+          "serviceBranding": ["NONE"],
+          "endTime": "1730512740000"
+        },
+        "media": [
+          {
+            "__typename": "Media",
+            "role": "SCREENSHOT",
+            "type": "IMAGE",
+            "url": "https://image.api.playstation.com/vulcan/ap/rnd/moving-out-2-screenshot.jpg"
+          },
+          {
+            "__typename": "Media",
+            "role": "MASTER",
+            "type": "IMAGE",
+            "url": "https://image.api.playstation.com/vulcan/ap/rnd/moving-out-2-master.png"
+          }
+        ]
+      },
+      "Product:EP0700-PPSA01542_00-LITTLENIGHTMARE2:de-de": {
+        "__typename": "Product",
+        "id": "EP0700-PPSA01542_00-LITTLENIGHTMARE2",
+        "name": "Little Nightmares II",
+        "platforms": ["PS5"],
+        "storeDisplayClassification": "FULL_GAME",
+        "localizedStoreDisplayClassification": "Vollversion",
+        "price": {"__ref": "SkuPrice:EP0700-PPSA01542_00-LITTLENIGHTMARE2"},
+        "media": [
+          {"__ref": "Media:little-nightmares-2-master"}
+        ]
+      },
+      "SkuPrice:EP0700-PPSA01542_00-LITTLENIGHTMARE2": {
+        "__typename": "SkuPrice",
+        "basePrice": "29,99 €",
+        "basePriceValue": 2999,
+        "discountedPrice": "Kostenlos",
+        "discountedValue": 0,
+        "discountText": "-100 %",
+        "currencyCode": "EUR",
+        "isFree": false,
+        "serviceBranding": ["NONE"],
+        "endTime": null
+      },
+      "Media:little-nightmares-2-master": {
+        "__typename": "Media",
+        "role": "MASTER",
+        "type": "IMAGE",
+        "url": "https://image.api.playstation.com/vulcan/ap/rnd/little-nightmares-2-master.png"
+      },
+      "Product:EP0001-CUSA12345_00-PS4ONLYGAME00000:de-de": {
+        "__typename": "Product",
+        "id": "EP0001-CUSA12345_00-PS4ONLYGAME00000",
+        "name": "Last Gen Adventure",
+        "platforms": ["PS4"],
+        "storeDisplayClassification": "FULL_GAME",
+        "price": {
+          "__typename": "SkuPrice",
+          "basePriceValue": 1999,
+          "discountedValue": 0,
+          "currencyCode": "EUR",
+          "isFree": false,
+          "serviceBranding": ["NONE"],
+          "endTime": "1730512740000"
+        },
+        "media": []
+      },
+      "Product:EP0002-PPSA05555_00-EXPANSIONPACK000:de-de": {
+        "__typename": "Product",
+        "id": "EP0002-PPSA05555_00-EXPANSIONPACK000",
+        "name": "Space Saga: Expansion Pack",
+        "platforms": ["PS5"],
+        "storeDisplayClassification": "ADD_ON_PACK",
+        "price": {
+          "__typename": "SkuPrice",
+          "basePriceValue": 999,
+          "discountedValue": 0,
+          "currencyCode": "EUR",
+          "isFree": false,
+          "serviceBranding": ["NONE"],
+          "endTime": "1730512740000"
+        },
+        "media": []
+      },
+      "Product:EP0003-PPSA06666_00-FREETOPLAYGAME00:de-de": {
+        "__typename": "Product",
+        "id": "EP0003-PPSA06666_00-FREETOPLAYGAME00",
+        "name": "Arena Legends",
+        "platforms": ["PS4", "PS5"],
+        "storeDisplayClassification": "FULL_GAME",
+        "price": {
+          "__typename": "SkuPrice",
+          "basePrice": "Kostenlos",
+          "basePriceValue": 0,
+          "discountedPrice": "Kostenlos",
+          "discountedValue": 0,
+          "currencyCode": "EUR",
+          "isFree": true,
+          "serviceBranding": ["NONE"],
+          "endTime": null
+        },
+        "media": []
+      },
+      "Product:EP0004-PPSA07777_00-HALFPRICEGAME000:de-de": {
+        "__typename": "Product",
+        "id": "EP0004-PPSA07777_00-HALFPRICEGAME000",
+        "name": "Sniper Elite 5",
+        "platforms": ["PS5"],
+        "storeDisplayClassification": "FULL_GAME",
+        "price": {
+          "__typename": "SkuPrice",
+          "basePrice": "59,99 €",
+          "basePriceValue": 5999,
+          "discountedPrice": "29,99 €",
+          "discountedValue": 2999,
+          "currencyCode": "EUR",
+          "isFree": false,
+          "serviceBranding": ["NONE"],
+          "endTime": "1730512740000"
+        },
+        "media": []
+      },
+      "Product:EP0005-PPSA08888_00-PLUSONLYGAME0000:de-de": {
+        "__typename": "Product",
+        "id": "EP0005-PPSA08888_00-PLUSONLYGAME0000",
+        "name": "Members Only Racer",
+        "platforms": ["PS5"],
+        "storeDisplayClassification": "FULL_GAME",
+        "price": {
+          "__typename": "SkuPrice",
+          "basePriceValue": 3999,
+          "discountedValue": 0,
+          "currencyCode": "EUR",
+          "isFree": false,
+          "serviceBranding": ["PS_PLUS"],
+          "endTime": "1730512740000"
+        },
+        "media": []
+      },
+      "Product:EP0006-PPSA09999_00-BASEPRICEZERO000:de-de": {
+        "__typename": "Product",
+        "id": "EP0006-PPSA09999_00-BASEPRICEZERO000",
+        "name": "Zero Price Puzzle",
+        "platforms": ["PS5"],
+        "storeDisplayClassification": "FULL_GAME",
+        "price": {
+          "__typename": "SkuPrice",
+          "basePriceValue": 0,
+          "discountedValue": 0,
+          "currencyCode": "EUR",
+          "isFree": false,
+          "serviceBranding": ["NONE"],
+          "endTime": null
+        },
+        "media": []
+      },
+      "Product:EP0007-PPSA04444_00-UNSAFEIMAGE00000:de-de": {
+        "__typename": "Product",
+        "id": "EP0007-PPSA04444_00-UNSAFEIMAGE00000",
+        "name": "Harbour Tales",
+        "platforms": ["PS5"],
+        "storeDisplayClassification": "GAME_BUNDLE",
+        "price": {
+          "__typename": "SkuPrice",
+          "basePriceValue": 1499,
+          "discountedValue": 0,
+          "currencyCode": "EUR",
+          "isFree": false,
+          "serviceBranding": ["NONE"],
+          "endTime": "1730512740000"
+        },
+        "media": [
+          {
+            "__typename": "Media",
+            "role": "MASTER",
+            "type": "IMAGE",
+            "url": "javascript:alert(1)"
+          }
+        ]
+      }
+    }
+  },
+  "page": "/[locale]/category/[id]/[pageNumber]",
+  "query": {
+    "locale": "de-de",
+    "id": "3f772501-f6f8-49b7-abac-874a88ca4897",
+    "pageNumber": "1"
+  },
+  "buildId": "recorded-fixture"
+}

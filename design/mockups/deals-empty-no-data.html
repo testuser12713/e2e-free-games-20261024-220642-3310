@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gratis-Spiele – noch keine Daten</title>
+<meta name="screen-route" content="/">
+<meta name="screen-state" content="empty, no data yet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- serves: AC-05, AC-10, AC-11 -->
+<header class="header" data-od-id="site-header"
+  ><div class="container header__inner"
+    ><a class="brand" href="index.html" data-od-id="brand-link"
+      ><svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"
+        ><rect width="32" height="32" rx="8" fill="oklch(62% 0.17 152)"
+        /><path d="M8 9.5h9.6a2 2 0 0 1 1.4.6l5.4 5.4a2 2 0 0 1 0 2.8l-4.3 4.3a2 2 0 0 1-2.8 0L7.9 17.2A2 2 0 0 1 7.3 15.8V10.2A.7.7 0 0 1 8 9.5z" fill="oklch(20% 0.05 265)"
+        /><circle cx="12" cy="14" r="1.8" fill="oklch(62% 0.17 152)"
+      /></svg
+      ><span>Gratis-Spiele</span
+      ><span class="brand__sub">PC · PS5</span
+    ></a
+  ></div
+></header>
+<main class="main container" data-od-id="main">
+<div class="page-head"
+  ><h1>Gerade gratis für PC und PS5</h1
+  ><p class="page-head__lead">Zeitlich begrenzte 100-%-Aktionen aus Epic, Steam, GOG, PlayStation Store und weiteren Shops – mit dem normalen Preis daneben.</p
+></div>
+<section class="status-bar" aria-label="Aktualität und Quellen" data-od-id="status-bar">
+<div class="status-bar__row">
+<p class="status-bar__updated"><span>Zuletzt aktualisiert:</span><span class="mono" style="color:var(--c-ink);font-weight:600;font-size:1rem">noch nie</span></p>
+<button class="btn btn--secondary" type="button" data-refresh data-od-id="refresh-button"
+  ><svg class="icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"
+    ><path d="M16.5 10a6.5 6.5 0 1 1-2-4.7"
+    /><path d="M16.5 3v3.5H13"
+  /></svg
+  ><span data-refresh-label>Jetzt aktualisieren</span
+></button>
+</div>
+<div class="progress" data-progress role="progressbar" aria-label="Aktualisierung läuft" hidden><div class="progress__bar"></div></div>
+<div
+  ><p class="status-bar__sources-title">Quellen</p
+  ><ul class="pill-list" data-od-id="source-status"
+    ><li class="pill pill--idle"
+      ><svg class="icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"
+        ><circle cx="10" cy="10" r="8"
+        /><path d="M6.5 10h7"
+      /></svg
+      ><span>Epic Games Store<span class="visually-hidden">: noch kein Lauf</span
+      ></span
+      ><span class="pill__count">noch kein Lauf</span
+    ></li>
+<li class="pill pill--idle"
+  ><svg class="icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"
+    ><circle cx="10" cy="10" r="8"
+    /><path d="M6.5 10h7"
+  /></svg
+  ><span>Steam<span class="visually-hidden">: noch kein Lauf</span
+  ></span
+  ><span class="pill__count">noch kein Lauf</span
+></li>
+<li class="pill pill--idle"
+  ><svg class="icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"
+    ><circle cx="10" cy="10" r="8"
+    /><path d="M6.5 10h7"
+  /></svg
+  ><span>GOG<span class="visually-hidden">: noch kein Lauf</span
+  ></span
+  ><span class="pill__count">noch kein Lauf</span
+></li>
+<li class="pill pill--idle"
+  ><svg class="icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"
+    ><circle cx="10" cy="10" r="8"
+    /><path d="M6.5 10h7"
+  /></svg
+  ><span>PlayStation Store<span class="visually-hidden">: noch kein Lauf</span
+  ></span
+  ><span class="pill__count">noch kein Lauf</span
+></li>
+<li class="pill pill--idle"
+      ><svg class="icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"
+        ><circle cx="10" cy="10" r="8"
+        /><path d="M6.5 10h7"
+      /></svg
+      ><span>GamerPower<span class="visually-hidden">: noch kein Lauf</span
+      ></span
+      ><span class="pill__count">noch kein Lauf</span
+    ></li
+  ></ul
+></div>
+<div data-status-live role="status" aria-live="polite"></div>
+</section>
+<form class="filter-bar" data-filter-form action="index.html" method="get" role="search" aria-label="Spiele suchen und filtern" data-od-id="filter-bar">
+<div class="field filter-bar__search"
+  ><label class="field__label" for="f-q">Titel suchen</label
+  ><div class="input-wrap"
+    ><svg class="icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"
+      ><circle cx="9" cy="9" r="6"
+      /><path d="m14 14 3.5 3.5"
+    /></svg
+    ><input class="input" id="f-q" name="q" type="search" placeholder="z. B. Tropico" autocomplete="off" value="" disabled
+  ></div
+></div>
+<fieldset class="field segmented"><legend>Plattform</legend><div class="segmented__options">
+<label class="segmented__option"><input type="radio" name="platform" value="all" checked disabled><span>Alle</span></label>
+<label class="segmented__option"><input type="radio" name="platform" value="pc" disabled><span>PC</span></label>
+<label class="segmented__option"><input type="radio" name="platform" value="ps5" disabled><span>PS5</span></label>
+</div></fieldset>
+<div class="field"
+  ><label class="field__label" for="f-store">Shop</label
+  ><select class="select" id="f-store" name="store" disabled
+    ><option value="">Alle Shops</option
+    ><option value="Epic Games Store">Epic Games Store</option
+    ><option value="GOG">GOG</option
+    ><option value="itch.io">itch.io</option
+    ><option value="PlayStation Store">PlayStation Store</option
+    ><option value="Steam">Steam</option
+    ><option value="Ubisoft Store">Ubisoft Store</option
+  ></select
+></div>
+<fieldset class="field price-range"
+  ><legend>Normalpreis (Betrag)</legend
+  ><div class="price-range__inputs"
+    ><input class="input" name="min" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Min" aria-label="Normalpreis ab" disabled
+    ><span class="price-range__sep" aria-hidden="true">–</span
+    ><input class="input" name="max" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Max" aria-label="Normalpreis bis" disabled
+  ></div
+></fieldset>
+<div class="field"><label class="field__label" for="f-sort">Sortierung</label><select class="select" id="f-sort" name="sort" disabled>
+<option value="first_seen:desc" selected>Neueste zuerst</option>
+<option value="first_seen:asc">Älteste zuerst</option>
+<option value="title:asc">Titel A–Z</option>
+<option value="title:desc">Titel Z–A</option>
+<option value="original_price:desc">Normalpreis absteigend</option>
+<option value="original_price:asc">Normalpreis aufsteigend</option>
+<option value="ends_at:asc">Aktionsende: bald zuerst</option>
+<option value="ends_at:desc">Aktionsende: spät zuerst</option>
+</select></div>
+<div class="filter-bar__actions"><button class="btn btn--ghost" type="button" data-reset data-od-id="filter-reset" disabled>Filter zurücksetzen</button></div>
+</form>
+<div class="state" data-od-id="empty-no-data"
+  ><svg class="icon state__icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"
+    ><circle cx="10" cy="10" r="7.5"
+    /><path d="M10 5.5V10l3 2"
+  /></svg
+  ><h2>Noch keine Daten vorhanden</h2
+  ><p class="state__text">Es wurde noch kein Aktualisierungslauf abgeschlossen. Über „Jetzt aktualisieren“ oben können Sie einen Lauf starten; die Liste füllt sich, sobald die ersten Quellen geantwortet haben.</p
+></div>
+</main>
+<footer class="footer" data-od-id="site-footer"
+  ><div class="container footer__inner"
+    ><p class="footer__note">Gratis-Spiele sammelt zeitlich begrenzte 100-%-Aktionen für PC und PS5. Preise und Aktionszeiträume ohne Gewähr; maßgeblich ist die Angebotsseite des Shops.</p
+    ><ul class="footer__links"
+      ><li
+        ><a href="impressum.html" data-od-id="footer-impressum">Impressum</a
+      ></li
+      ><li
+        ><a href="datenschutz.html" data-od-id="footer-datenschutz">Datenschutzerklärung</a
+      ></li
+    ></ul
+  ></div
+></footer>
+<script src="mock.js"></script>
+</body>
+</html>

@@ -1,0 +1,252 @@
+{
+  "featuredcategories": {
+    "specials": {
+      "id": "cat_specials",
+      "name": "Specials",
+      "items": [
+        {
+          "id": 1001,
+          "type": 0,
+          "name": "Lantern Keeper",
+          "discounted": true,
+          "discount_percent": 100,
+          "original_price": 1999,
+          "final_price": 0,
+          "currency": "EUR",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1001/header.jpg",
+          "discount_expiration": 1798761600
+        },
+        {
+          "id": 1002,
+          "type": 0,
+          "name": "Orbit Cartographer",
+          "discounted": true,
+          "discount_percent": 100,
+          "original_price": 2499,
+          "final_price": 0,
+          "currency": "EUR",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1002/header.jpg",
+          "discount_expiration": 1798934400
+        },
+        {
+          "id": 1003,
+          "type": 0,
+          "name": "Harbor Tycoon",
+          "discounted": true,
+          "discount_percent": 90,
+          "original_price": 2999,
+          "final_price": 299,
+          "currency": "EUR",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1003/header.jpg",
+          "discount_expiration": 1798761600
+        },
+        {
+          "id": 1004,
+          "type": 0,
+          "name": "Arena Brawlers Online",
+          "discounted": true,
+          "discount_percent": 100,
+          "original_price": 0,
+          "final_price": 0,
+          "currency": "EUR",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1004/header.jpg",
+          "discount_expiration": 1798761600
+        },
+        {
+          "id": 1005,
+          "type": 0,
+          "name": "Lantern Keeper Demo",
+          "discounted": true,
+          "discount_percent": 100,
+          "original_price": 999,
+          "final_price": 0,
+          "currency": "EUR",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1005/header.jpg",
+          "discount_expiration": 1798761600
+        },
+        {
+          "id": 1006,
+          "type": 0,
+          "name": "Orbit Cartographer - Deep Space Pack",
+          "discounted": true,
+          "discount_percent": 100,
+          "original_price": 499,
+          "final_price": 0,
+          "currency": "EUR",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1006/header.jpg",
+          "discount_expiration": 1798761600
+        },
+        {
+          "id": 1007,
+          "type": 0,
+          "name": "Pixel Studio Pro",
+          "discounted": true,
+          "discount_percent": 100,
+          "original_price": 1499,
+          "final_price": 0,
+          "currency": "EUR",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1007/header.jpg",
+          "discount_expiration": 1798761600
+        },
+        {
+          "id": 1008,
+          "type": 0,
+          "name": "Region Locked Saga",
+          "discounted": true,
+          "discount_percent": 100,
+          "original_price": 1999,
+          "final_price": 0,
+          "currency": "EUR",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1008/header.jpg",
+          "discount_expiration": 1798761600
+        },
+        {
+          "id": 1001,
+          "type": 0,
+          "name": "Lantern Keeper",
+          "discounted": true,
+          "discount_percent": 100,
+          "original_price": 1999,
+          "final_price": 0,
+          "currency": "EUR",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1001/header.jpg",
+          "discount_expiration": 1798761600
+        }
+      ]
+    },
+    "status": 1
+  },
+  "appdetails": {
+    "1001": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Lantern Keeper",
+        "steam_appid": 1001,
+        "is_free": false,
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1001/header.jpg",
+        "price_overview": {
+          "currency": "EUR",
+          "initial": 1999,
+          "final": 0,
+          "discount_percent": 100,
+          "initial_formatted": "19,99€",
+          "final_formatted": "0,--€"
+        },
+        "platforms": {"windows": true, "mac": false, "linux": false},
+        "genres": [{"id": "25", "description": "Adventure"}]
+      }
+    },
+    "1002": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Orbit Cartographer",
+        "steam_appid": 1002,
+        "is_free": false,
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1002/header.jpg",
+        "price_overview": {
+          "currency": "EUR",
+          "initial": 2499,
+          "final": 0,
+          "discount_percent": 100,
+          "initial_formatted": "24,99€",
+          "final_formatted": "0,--€"
+        },
+        "platforms": {"windows": true, "mac": true, "linux": true},
+        "genres": [{"id": "28", "description": "Simulation"}, {"id": "2", "description": "Strategy"}]
+      }
+    },
+    "1003": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Harbor Tycoon",
+        "steam_appid": 1003,
+        "is_free": false,
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1003/header.jpg",
+        "price_overview": {
+          "currency": "EUR",
+          "initial": 2999,
+          "final": 299,
+          "discount_percent": 90,
+          "initial_formatted": "29,99€",
+          "final_formatted": "2,99€"
+        },
+        "genres": [{"id": "28", "description": "Simulation"}]
+      }
+    },
+    "1004": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Arena Brawlers Online",
+        "steam_appid": 1004,
+        "is_free": true,
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1004/header.jpg",
+        "genres": [{"id": "1", "description": "Action"}, {"id": "37", "description": "Free To Play"}]
+      }
+    },
+    "1005": {
+      "success": true,
+      "data": {
+        "type": "demo",
+        "name": "Lantern Keeper Demo",
+        "steam_appid": 1005,
+        "is_free": false,
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1005/header.jpg",
+        "price_overview": {
+          "currency": "EUR",
+          "initial": 999,
+          "final": 0,
+          "discount_percent": 100,
+          "initial_formatted": "9,99€",
+          "final_formatted": "0,--€"
+        },
+        "genres": [{"id": "25", "description": "Adventure"}]
+      }
+    },
+    "1006": {
+      "success": true,
+      "data": {
+        "type": "dlc",
+        "name": "Orbit Cartographer - Deep Space Pack",
+        "steam_appid": 1006,
+        "is_free": false,
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1006/header.jpg",
+        "fullgame": {"appid": "1002", "name": "Orbit Cartographer"},
+        "price_overview": {
+          "currency": "EUR",
+          "initial": 499,
+          "final": 0,
+          "discount_percent": 100,
+          "initial_formatted": "4,99€",
+          "final_formatted": "0,--€"
+        },
+        "genres": [{"id": "28", "description": "Simulation"}]
+      }
+    },
+    "1007": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Pixel Studio Pro",
+        "steam_appid": 1007,
+        "is_free": false,
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1007/header.jpg",
+        "price_overview": {
+          "currency": "EUR",
+          "initial": 1499,
+          "final": 0,
+          "discount_percent": 100,
+          "initial_formatted": "14,99€",
+          "final_formatted": "0,--€"
+        },
+        "genres": [{"id": "53", "description": "Design & Illustration"}, {"id": "57", "description": "Utilities"}]
+      }
+    },
+    "1008": {
+      "success": false
+    }
+  }
+}

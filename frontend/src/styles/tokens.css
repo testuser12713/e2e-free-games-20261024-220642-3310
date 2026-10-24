@@ -1,0 +1,57 @@
+/* Design tokens of the approved mockups (design/mockups/styles.css:12-66).
+   Fonts are self-hosted under public/fonts and loaded from index.html. */
+:root {
+  /* colour */
+  --c-bg: oklch(97.6% 0.006 255);
+  --c-surface: oklch(100% 0 0);
+  --c-surface-2: oklch(95.4% 0.01 258);
+  --c-ink: oklch(22% 0.045 265);
+  --c-muted: oklch(46% 0.03 265);
+  --c-border: oklch(89% 0.012 260);
+  --c-border-strong: oklch(72% 0.025 260);
+  --c-primary: oklch(47% 0.17 262);
+  --c-primary-hover: oklch(40% 0.17 262);
+  --c-primary-active: oklch(34% 0.16 262);
+  --c-primary-tint: oklch(94% 0.03 262);
+  --c-on-primary: oklch(100% 0 0);
+  --c-free: oklch(46% 0.13 152);
+  --c-free-tint: oklch(94% 0.05 152);
+  --c-danger: oklch(48% 0.19 27);
+  --c-danger-tint: oklch(95.5% 0.03 27);
+  --c-warn: oklch(40% 0.09 70);
+  --c-warn-tint: oklch(95.5% 0.06 85);
+  --c-header: oklch(20% 0.05 265);
+  --c-header-ink: oklch(96% 0.01 260);
+  --c-focus: oklch(60% 0.2 255);
+
+  /* type */
+  --font-display: "Space Grotesk", system-ui, "Segoe UI", Arial, sans-serif;
+  --font-body: "Inter", system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Mono", Consolas, "Liberation Mono", monospace;
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-md: 1.125rem;
+  --fs-lg: 1.375rem;
+  --fs-xl: clamp(1.625rem, 1.25rem + 1.8vw, 2.5rem); /* h1; longest word "Datenschutzerklärung" fits 360 px */
+
+  /* spacing */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.5rem;
+  --s-6: 2rem;
+  --s-7: 3rem;
+  --s-8: 4.5rem;
+
+  /* radii + elevation */
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 16px;
+  --r-pill: 999px;
+  --shadow-card: 0 1px 2px oklch(22% 0.045 265 / 0.06), 0 4px 14px oklch(22% 0.045 265 / 0.05);
+  --shadow-hover: 0 2px 4px oklch(22% 0.045 265 / 0.08), 0 10px 28px oklch(22% 0.045 265 / 0.12);
+
+  --tap: 2.75rem; /* minimum hit target */
+}

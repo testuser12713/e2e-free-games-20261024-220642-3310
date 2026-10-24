@@ -7,30 +7,79 @@
       "stack": "python",
       "kind": "server",
       "install": [
-        ["${python}", "-m", "pip", "install", "-q", "-r", "requirements.txt"]
+        [
+          "${python}",
+          "-m",
+          "pip",
+          "install",
+          "-q",
+          "-r",
+          "requirements.txt"
+        ]
       ],
       "start": [
-        "${python}", "-m", "uvicorn", "app.main:app",
-        "--host", "127.0.0.1", "--port", "${PORT}", "--no-access-log"
+        "${python}",
+        "-m",
+        "uvicorn",
+        "app.main:app",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "${PORT}",
+        "--no-access-log"
       ],
       "port": 8000,
       "port_env": "PORT",
-      "health": { "path": "/api/health", "expect_status": [200] },
+      "health": {
+        "path": "/api/health",
+        "expect_status": [
+          200
+        ]
+      },
       "env": {
-        "DATABASE_PATH": { "dev": "data/games.db" },
-        "CORS_ORIGINS": { "dev": "${service:web.origin}" },
-        "REFRESH_INTERVAL_HOURS": { "dev": "6" },
-        "SCRAPE_ON_START": { "dev": "true" }
+        "DATABASE_PATH": {
+          "dev": "data/games.db"
+        },
+        "CORS_ORIGINS": {
+          "dev": "${service:web.origin}"
+        },
+        "REFRESH_INTERVAL_HOURS": {
+          "dev": "6"
+        },
+        "SCRAPE_ON_START": {
+          "dev": "true"
+        }
       },
       "test": [
-        ["${python}", "-m", "pytest"]
+        [
+          "${python}",
+          "-m",
+          "pytest"
+        ]
       ],
       "lint": [
-        ["${python}", "-m", "ruff", "format", "--check", "."],
-        ["${python}", "-m", "ruff", "check", "."]
+        [
+          "${python}",
+          "-m",
+          "ruff",
+          "format",
+          "--check",
+          "."
+        ],
+        [
+          "${python}",
+          "-m",
+          "ruff",
+          "check",
+          "."
+        ]
       ],
       "seed": [
-        ["${python}", "-m", "app.seed"]
+        [
+          "${python}",
+          "-m",
+          "app.seed"
+        ]
       ]
     },
     {
@@ -39,11 +88,61 @@
       "stack": "c",
       "kind": "library",
       "install": [
-        ["make", "install"]
+        [
+          "make",
+          "install"
+        ]
       ],
       "test": [
-        ["make", "test"]
+        [
+          "make",
+          "test"
+        ]
       ]
+    },
+    {
+      "name": "web",
+      "dir": "frontend",
+      "stack": "web-vite",
+      "kind": "static",
+      "install": [
+        [
+          "npm",
+          "ci"
+        ]
+      ],
+      "build": [
+        [
+          "npm",
+          "run",
+          "build"
+        ]
+      ],
+      "start": [
+        "npm",
+        "run",
+        "dev",
+        "--",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "${PORT}",
+        "--strictPort"
+      ],
+      "port": 5173,
+      "port_env": "PORT",
+      "serve_dir": "dist",
+      "test": [
+        [
+          "npm",
+          "test"
+        ]
+      ],
+      "env": {
+        "VITE_API_BASE_URL": {
+          "dev": "${service:api.origin}"
+        }
+      }
     }
   ]
 }

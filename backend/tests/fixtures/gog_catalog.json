@@ -1,0 +1,112 @@
+{
+  "pages": 1,
+  "productCount": 7,
+  "currentlyShownProductCount": 7,
+  "products": [
+    {
+      "id": "1207658930",
+      "slug": "the_witcher_enhanced_edition",
+      "title": "The Witcher: Enhanced Edition",
+      "productType": "game",
+      "operatingSystems": ["windows"],
+      "coverHorizontal": "https://images.gog-statics.com/witcher_horizontal.png",
+      "coverVertical": "https://images.gog-statics.com/witcher_vertical.jpg",
+      "storeLink": "https://www.gog.com/en/game/the_witcher_enhanced_edition",
+      "promoEndDate": "2026-10-27T13:00:00Z",
+      "price": {
+        "final": "€0.00",
+        "base": "€9.99",
+        "discount": "-100%",
+        "finalMoney": {"amount": "0.00", "currency": "EUR", "discount": "9.99"},
+        "baseMoney": {"amount": "9.99", "currency": "EUR"}
+      }
+    },
+    {
+      "id": "1440164514",
+      "slug": "beneath_a_steel_sky_bundle",
+      "title": "Retro Adventure Pack",
+      "productType": "pack",
+      "operatingSystems": ["windows", "osx"],
+      "coverHorizontal": "javascript:alert(1)",
+      "coverVertical": "data:image/png;base64,AAAA",
+      "storeLink": "https://www.gog.com/en/game/beneath_a_steel_sky_bundle",
+      "price": {
+        "final": "€0.00",
+        "base": "€14.99",
+        "discount": "-100%",
+        "finalMoney": {"amount": "0.00", "currency": "EUR", "discount": "14.99"},
+        "baseMoney": {"amount": "14.99", "currency": "EUR"}
+      }
+    },
+    {
+      "id": "1495134320",
+      "slug": "gwent_the_witcher_card_game",
+      "title": "Free To Play Card Game",
+      "productType": "game",
+      "operatingSystems": ["windows"],
+      "coverHorizontal": "https://images.gog-statics.com/gwent_horizontal.png",
+      "storeLink": "https://www.gog.com/en/game/gwent_the_witcher_card_game",
+      "price": {
+        "final": "€0.00",
+        "base": "€0.00",
+        "discount": null,
+        "finalMoney": {"amount": "0.00", "currency": "EUR", "discount": "0.00"},
+        "baseMoney": {"amount": "0.00", "currency": "EUR"}
+      }
+    },
+    {
+      "id": "1580232252",
+      "slug": "some_game_soundtrack_dlc",
+      "title": "Some Game - Soundtrack",
+      "productType": "dlc",
+      "operatingSystems": ["windows"],
+      "coverHorizontal": "https://images.gog-statics.com/ost_horizontal.png",
+      "storeLink": "https://www.gog.com/en/game/some_game_soundtrack_dlc",
+      "price": {
+        "final": "€0.00",
+        "base": "€4.99",
+        "discount": "-100%",
+        "finalMoney": {"amount": "0.00", "currency": "EUR", "discount": "4.99"},
+        "baseMoney": {"amount": "4.99", "currency": "EUR"}
+      }
+    },
+    {
+      "id": "1423049311",
+      "slug": "half_price_strategy",
+      "title": "Half Price Strategy",
+      "productType": "game",
+      "operatingSystems": ["windows"],
+      "coverHorizontal": "https://images.gog-statics.com/strategy_horizontal.png",
+      "storeLink": "https://www.gog.com/en/game/half_price_strategy",
+      "price": {
+        "final": "€9.99",
+        "base": "€19.99",
+        "discount": "-50%",
+        "finalMoney": {"amount": "9.99", "currency": "EUR", "discount": "10.00"},
+        "baseMoney": {"amount": "19.99", "currency": "EUR"}
+      }
+    },
+    {
+      "id": "1207664663",
+      "slug": "unsafe_link_game",
+      "title": "Unsafe Link Game",
+      "productType": "game",
+      "operatingSystems": ["windows"],
+      "coverHorizontal": "https://images.gog-statics.com/unsafe_horizontal.png",
+      "storeLink": "javascript:alert(1)",
+      "price": {
+        "final": "€0.00",
+        "base": "€5.99",
+        "discount": "-100%",
+        "finalMoney": {"amount": "0.00", "currency": "EUR", "discount": "5.99"},
+        "baseMoney": {"amount": "5.99", "currency": "EUR"}
+      }
+    },
+    {
+      "id": "1207666893",
+      "title": "Broken Entry Without Price",
+      "productType": "game",
+      "storeLink": "https://www.gog.com/en/game/broken_entry"
+    }
+  ]
+}

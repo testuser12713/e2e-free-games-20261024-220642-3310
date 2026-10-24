@@ -1,0 +1,621 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:5b8cf501-9f62-4a5c-b5e5-886c4f06508b",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-24T20:44:33Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.51.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "20e1156615475b2f",
+      "type": "file",
+      "name": "e2e-free-games-20261024-220642-3310"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:github/actions/checkout@v4?package-id=fa2e67b8c20f75f3",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github.flows/ci.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-node@v4?package-id=0655ed1d97886acf",
+      "type": "library",
+      "name": "actions/setup-node",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/setup-node:actions\\/setup-node:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-node@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-node:actions\\/setup_node:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_node:actions\\/setup-node:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_node:actions\\/setup_node:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-node:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_node:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github.flows/ci.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-python@v5?package-id=0ac68409cceaeece",
+      "type": "library",
+      "name": "actions/setup-python",
+      "version": "v5",
+      "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:v5:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-python@v5",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github.flows/ci.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/cookie@1.1.1?package-id=2ba132b3b04125c3",
+      "type": "library",
+      "name": "cookie",
+      "version": "1.1.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:cookie:cookie:1.1.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/cookie@1.1.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "javascript-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "javascript"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "npm"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "javascript-npm-package-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/frontend/package-lock.json"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/gratis-spiele-web@0.1.0?package-id=4b11e6ad2978ce55",
+      "type": "library",
+      "name": "gratis-spiele-web",
+      "version": "0.1.0",
+      "cpe": "cpe:2.3:a:gratis-spiele-web:gratis-spiele-web:0.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/gratis-spiele-web@0.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "javascript-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "javascript"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "npm"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "javascript-npm-package-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gratis-spiele-web:gratis_spiele_web:0.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gratis_spiele_web:gratis-spiele-web:0.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gratis_spiele_web:gratis_spiele_web:0.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gratis-spiele:gratis-spiele-web:0.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gratis-spiele:gratis_spiele_web:0.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gratis_spiele:gratis-spiele-web:0.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gratis_spiele:gratis_spiele_web:0.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gratis:gratis-spiele-web:0.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gratis:gratis_spiele_web:0.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/frontend/package-lock.json"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/react@19.3.1?package-id=575527b861542765",
+      "type": "library",
+      "name": "react",
+      "version": "19.3.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:react:react:19.3.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/react@19.3.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "javascript-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "javascript"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "npm"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "javascript-npm-package-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/frontend/package-lock.json"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/react-dom@19.3.1?package-id=5102228b82690e8f",
+      "type": "library",
+      "name": "react-dom",
+      "version": "19.3.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:react-dom:react-dom:19.3.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/react-dom@19.3.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "javascript-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "javascript"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "npm"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "javascript-npm-package-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:react-dom:react_dom:19.3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:react_dom:react-dom:19.3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:react_dom:react_dom:19.3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:react:react-dom:19.3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:react:react_dom:19.3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/frontend/package-lock.json"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/react-router@7.18.4?package-id=622bcb98a6f17c56",
+      "type": "library",
+      "name": "react-router",
+      "version": "7.18.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:shopify:react-router:7.18.4:*:*:*:*:node.js:*:*",
+      "purl": "pkg:npm/react-router@7.18.4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "javascript-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "javascript"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "npm"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "javascript-npm-package-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/frontend/package-lock.json"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/react-router-dom@7.18.4?package-id=3e6fbe44b9bc0041",
+      "type": "library",
+      "name": "react-router-dom",
+      "version": "7.18.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:react-router-dom:react-router-dom:7.18.4:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/react-router-dom@7.18.4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "javascript-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "javascript"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "npm"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "javascript-npm-package-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:react-router-dom:react_router_dom:7.18.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:react_router_dom:react-router-dom:7.18.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:react_router_dom:react_router_dom:7.18.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:react-router:react-router-dom:7.18.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:react-router:react_router_dom:7.18.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:react_router:react-router-dom:7.18.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:react_router:react_router_dom:7.18.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:react:react-router-dom:7.18.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:react:react_router_dom:7.18.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/frontend/package-lock.json"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/scheduler@0.28.0?package-id=281a618dd4d643fb",
+      "type": "library",
+      "name": "scheduler",
+      "version": "0.28.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:scheduler:scheduler:0.28.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/scheduler@0.28.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "javascript-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "javascript"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "npm"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "javascript-npm-package-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/frontend/package-lock.json"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/set-cookie-parser@2.7.3?package-id=9fd7be973cd313fe",
+      "type": "library",
+      "name": "set-cookie-parser",
+      "version": "2.7.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:set-cookie-parser:set-cookie-parser:2.7.3:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/set-cookie-parser@2.7.3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "javascript-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "javascript"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "npm"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "javascript-npm-package-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:set-cookie-parser:set_cookie_parser:2.7.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:set_cookie_parser:set-cookie-parser:2.7.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:set_cookie_parser:set_cookie_parser:2.7.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:set-cookie:set-cookie-parser:2.7.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:set-cookie:set_cookie_parser:2.7.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:set_cookie:set-cookie-parser:2.7.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:set_cookie:set_cookie_parser:2.7.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:set:set-cookie-parser:2.7.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:set:set_cookie_parser:2.7.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/frontend/package-lock.json"
+        }
+      ]
+    },
+    {
+      "bom-ref": "7561d461b00ff11d",
+      "type": "file",
+      "name": "./.github.flows/ci.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b5377cc22b5bdfd11e4bdb6eba29d9b3f0757192"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "54853784d192e9a704823a206d1d0b32fe4a2c3837e15aac528848fd09e447c1"
+        }
+      ]
+    },
+    {
+      "bom-ref": "c9e3ffd6671019b2",
+      "type": "file",
+      "name": "./frontend/package-lock.json",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "425cf15f90fcf154976ea47ab65afd90e59d7400"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1d7d1bef94456e279495445edfb88323b82764a24e9762d8c9b7f5ca5bb7933e"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:npm/gratis-spiele-web@0.1.0?package-id=4b11e6ad2978ce55",
+      "dependsOn": [
+        "pkg:npm/react-dom@19.3.1?package-id=5102228b82690e8f",
+        "pkg:npm/react-router-dom@7.18.4?package-id=3e6fbe44b9bc0041",
+        "pkg:npm/react@19.3.1?package-id=575527b861542765"
+      ]
+    },
+    {
+      "ref": "pkg:npm/react-dom@19.3.1?package-id=5102228b82690e8f",
+      "dependsOn": [
+        "pkg:npm/scheduler@0.28.0?package-id=281a618dd4d643fb"
+      ]
+    },
+    {
+      "ref": "pkg:npm/react-router-dom@7.18.4?package-id=3e6fbe44b9bc0041",
+      "dependsOn": [
+        "pkg:npm/react-router@7.18.4?package-id=622bcb98a6f17c56"
+      ]
+    },
+    {
+      "ref": "pkg:npm/react-router@7.18.4?package-id=622bcb98a6f17c56",
+      "dependsOn": [
+        "pkg:npm/cookie@1.1.1?package-id=2ba132b3b04125c3",
+        "pkg:npm/set-cookie-parser@2.7.3?package-id=9fd7be973cd313fe"
+      ]
+    }
+  ]
+}

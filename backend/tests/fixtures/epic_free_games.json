@@ -1,0 +1,300 @@
+{
+  "data": {
+    "Catalog": {
+      "searchStore": {
+        "elements": [
+          {
+            "title": "Wildlands Courier",
+            "id": "4f1c2a9e7b8d4e3fa6b1c0d9e8f7a6b5",
+            "namespace": "c3d4e5f6a7b8",
+            "description": "Deliver parcels across a hand-painted open world.",
+            "effectiveDate": "2026-10-22T15:00:00.000Z",
+            "offerType": "BASE_GAME",
+            "expiryDate": null,
+            "status": "ACTIVE",
+            "isCodeRedemptionOnly": false,
+            "keyImages": [
+              {"type": "OfferImageTall", "url": "https://cdn1.epicgames.com/offer/c3d4e5f6a7b8/wildlands-tall.jpg"},
+              {"type": "OfferImageWide", "url": "https://cdn1.epicgames.com/offer/c3d4e5f6a7b8/wildlands-wide.jpg"},
+              {"type": "Thumbnail", "url": "https://cdn1.epicgames.com/offer/c3d4e5f6a7b8/wildlands-thumb.jpg"}
+            ],
+            "seller": {"id": "o-seller1", "name": "Northwind Studio"},
+            "productSlug": null,
+            "urlSlug": "a1b2c3d4e5f6",
+            "url": null,
+            "items": [{"id": "item-1", "namespace": "c3d4e5f6a7b8"}],
+            "customAttributes": [],
+            "categories": [{"path": "freegames"}, {"path": "games"}],
+            "tags": [],
+            "catalogNs": {
+              "mappings": [{"pageSlug": "wildlands-courier", "pageType": "productHome"}]
+            },
+            "offerMappings": [],
+            "price": {
+              "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 2499,
+                "voucherDiscount": 0,
+                "discount": 2499,
+                "currencyCode": "EUR",
+                "currencyInfo": {"decimals": 2},
+                "fmtPrice": {"originalPrice": "24,99 €", "discountPrice": "0", "intermediatePrice": "0"}
+              },
+              "lineOffers": [{"appliedRules": [{"id": "rule-1", "endDate": "2026-10-29T15:00:00.000Z", "discountSetting": {"discountType": "PERCENTAGE"}}]}]
+            },
+            "promotions": {
+              "promotionalOffers": [
+                {
+                  "promotionalOffers": [
+                    {
+                      "startDate": "2026-10-22T15:00:00.000Z",
+                      "endDate": "2026-10-29T15:00:00.000Z",
+                      "discountSetting": {"discountType": "PERCENTAGE", "discountPercentage": 0}
+                    }
+                  ]
+                }
+              ],
+              "upcomingPromotionalOffers": []
+            }
+          },
+          {
+            "title": "Harbor Lights",
+            "id": "9a8b7c6d5e4f40312a1b0c9d8e7f6a5b",
+            "namespace": "f1e2d3c4b5a6",
+            "description": "A cozy lighthouse-keeping puzzle game.",
+            "effectiveDate": "2026-10-22T15:00:00.000Z",
+            "offerType": "BASE_GAME",
+            "status": "ACTIVE",
+            "keyImages": [
+              {"type": "OfferImageWide", "url": "javascript:alert(1)"},
+              {"type": "DieselStoreFrontTall", "url": "https://cdn1.epicgames.com/offer/f1e2d3c4b5a6/harbor-tall.png"}
+            ],
+            "seller": {"id": "o-seller2", "name": "Tidewater Games"},
+            "productSlug": "harbor-lights/home",
+            "urlSlug": "harbor-lights",
+            "catalogNs": {"mappings": []},
+            "offerMappings": null,
+            "price": {
+              "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 1999,
+                "voucherDiscount": 0,
+                "discount": 1999,
+                "currencyCode": "eur",
+                "currencyInfo": {"decimals": 2},
+                "fmtPrice": {"originalPrice": "19,99 €", "discountPrice": "0", "intermediatePrice": "0"}
+              }
+            },
+            "promotions": {
+              "promotionalOffers": [
+                {
+                  "promotionalOffers": [
+                    {
+                      "startDate": "2026-10-22T15:00:00.000Z",
+                      "endDate": "2026-10-29T15:00:00.000Z",
+                      "discountSetting": {"discountType": "PERCENTAGE", "discountPercentage": 0}
+                    }
+                  ]
+                }
+              ],
+              "upcomingPromotionalOffers": []
+            }
+          },
+          {
+            "title": "Starfall Tactics",
+            "id": "1b2c3d4e5f6a47b8c9d0e1f2a3b4c5d6",
+            "namespace": "a9b8c7d6e5f4",
+            "description": "Turn-based squad combat among the stars.",
+            "effectiveDate": "2026-10-29T15:00:00.000Z",
+            "offerType": "BASE_GAME",
+            "status": "ACTIVE",
+            "keyImages": [
+              {"type": "OfferImageWide", "url": "https://cdn1.epicgames.com/offer/a9b8c7d6e5f4/starfall-wide.jpg"}
+            ],
+            "seller": {"id": "o-seller3", "name": "Orbit Forge"},
+            "productSlug": "starfall-tactics",
+            "urlSlug": "starfall-tactics",
+            "catalogNs": {
+              "mappings": [{"pageSlug": "starfall-tactics", "pageType": "productHome"}]
+            },
+            "offerMappings": [],
+            "price": {
+              "totalPrice": {
+                "discountPrice": 2999,
+                "originalPrice": 2999,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {"decimals": 2},
+                "fmtPrice": {"originalPrice": "29,99 €", "discountPrice": "29,99 €", "intermediatePrice": "29,99 €"}
+              }
+            },
+            "promotions": {
+              "promotionalOffers": [],
+              "upcomingPromotionalOffers": [
+                {
+                  "promotionalOffers": [
+                    {
+                      "startDate": "2026-10-29T15:00:00.000Z",
+                      "endDate": "2026-11-05T16:00:00.000Z",
+                      "discountSetting": {"discountType": "PERCENTAGE", "discountPercentage": 0}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "title": "Arena Clash Online",
+            "id": "7c6b5a4f3e2d41c0b9a8f7e6d5c4b3a2",
+            "namespace": "d5c4b3a2f1e0",
+            "description": "A free-to-play team brawler.",
+            "effectiveDate": "2024-03-01T16:00:00.000Z",
+            "offerType": "BASE_GAME",
+            "status": "ACTIVE",
+            "keyImages": [
+              {"type": "Thumbnail", "url": "https://cdn1.epicgames.com/offer/d5c4b3a2f1e0/arena-thumb.jpg"}
+            ],
+            "seller": {"id": "o-seller4", "name": "Brawl Works"},
+            "productSlug": "arena-clash-online",
+            "urlSlug": "arena-clash-online",
+            "catalogNs": {
+              "mappings": [{"pageSlug": "arena-clash-online", "pageType": "productHome"}]
+            },
+            "offerMappings": [],
+            "price": {
+              "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 0,
+                "voucherDiscount": 0,
+                "discount": 0,
+                "currencyCode": "EUR",
+                "currencyInfo": {"decimals": 2},
+                "fmtPrice": {"originalPrice": "0", "discountPrice": "0", "intermediatePrice": "0"}
+              }
+            },
+            "promotions": null
+          },
+          {
+            "title": "Mystery Game",
+            "namespace": "000000000000",
+            "description": "Mystery Game",
+            "effectiveDate": "2026-10-22T15:00:00.000Z",
+            "offerType": "OTHERS",
+            "status": "ACTIVE",
+            "keyImages": [],
+            "productSlug": "[]",
+            "urlSlug": "mystery-game",
+            "catalogNs": {"mappings": null},
+            "offerMappings": [],
+            "price": "unavailable",
+            "promotions": {
+              "promotionalOffers": [
+                {
+                  "promotionalOffers": [
+                    {
+                      "startDate": "2026-10-22T15:00:00.000Z",
+                      "endDate": "2026-10-29T15:00:00.000Z",
+                      "discountSetting": {"discountType": "PERCENTAGE", "discountPercentage": 0}
+                    }
+                  ]
+                }
+              ],
+              "upcomingPromotionalOffers": []
+            }
+          },
+          {
+            "title": "Canyon Rally Deluxe",
+            "id": "2d3e4f5a6b7c48d9e0f1a2b3c4d5e6f7",
+            "namespace": "b2c3d4e5f6a7",
+            "description": "Off-road racing, half price this week.",
+            "effectiveDate": "2026-10-20T15:00:00.000Z",
+            "offerType": "BASE_GAME",
+            "status": "ACTIVE",
+            "keyImages": [
+              {"type": "OfferImageWide", "url": "https://cdn1.epicgames.com/offer/b2c3d4e5f6a7/canyon-wide.jpg"}
+            ],
+            "seller": {"id": "o-seller5", "name": "Dust Devil Interactive"},
+            "productSlug": "canyon-rally-deluxe",
+            "urlSlug": "canyon-rally-deluxe",
+            "catalogNs": {
+              "mappings": [{"pageSlug": "canyon-rally-deluxe", "pageType": "productHome"}]
+            },
+            "offerMappings": [],
+            "price": {
+              "totalPrice": {
+                "discountPrice": 1999,
+                "originalPrice": 3999,
+                "voucherDiscount": 0,
+                "discount": 2000,
+                "currencyCode": "EUR",
+                "currencyInfo": {"decimals": 2},
+                "fmtPrice": {"originalPrice": "39,99 €", "discountPrice": "19,99 €", "intermediatePrice": "19,99 €"}
+              }
+            },
+            "promotions": {
+              "promotionalOffers": [
+                {
+                  "promotionalOffers": [
+                    {
+                      "startDate": "2026-10-20T15:00:00.000Z",
+                      "endDate": "2026-10-27T15:00:00.000Z",
+                      "discountSetting": {"discountType": "PERCENTAGE", "discountPercentage": 50}
+                    }
+                  ]
+                }
+              ],
+              "upcomingPromotionalOffers": []
+            }
+          },
+          {
+            "title": "Frostbound Saga",
+            "id": "5e6f7a8b9c0d41e2f3a4b5c6d7e8f9a0",
+            "namespace": "e6f7a8b9c0d1",
+            "description": "Last week's giveaway; the promotion has ended.",
+            "effectiveDate": "2026-10-15T15:00:00.000Z",
+            "offerType": "BASE_GAME",
+            "status": "ACTIVE",
+            "keyImages": [
+              {"type": "OfferImageWide", "url": "https://cdn1.epicgames.com/offer/e6f7a8b9c0d1/frostbound-wide.jpg"}
+            ],
+            "seller": {"id": "o-seller6", "name": "Glacier Hall"},
+            "productSlug": "frostbound-saga",
+            "urlSlug": "frostbound-saga",
+            "catalogNs": {
+              "mappings": [{"pageSlug": "frostbound-saga", "pageType": "productHome"}]
+            },
+            "offerMappings": [],
+            "price": {
+              "totalPrice": {
+                "discountPrice": 0,
+                "originalPrice": 1499,
+                "voucherDiscount": 0,
+                "discount": 1499,
+                "currencyCode": "EUR",
+                "currencyInfo": {"decimals": 2},
+                "fmtPrice": {"originalPrice": "14,99 €", "discountPrice": "0", "intermediatePrice": "0"}
+              }
+            },
+            "promotions": {
+              "promotionalOffers": [
+                {
+                  "promotionalOffers": [
+                    {
+                      "startDate": "2026-10-15T15:00:00.000Z",
+                      "endDate": "2026-10-22T15:00:00.000Z",
+                      "discountSetting": {"discountType": "PERCENTAGE", "discountPercentage": 0}
+                    }
+                  ]
+                }
+              ],
+              "upcomingPromotionalOffers": []
+            }
+          }
+        ],
+        "paging": {"count": 1000, "total": 7}
+      }
+    }
+  },
+  "extensions": {}
+}
